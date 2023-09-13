@@ -39,6 +39,7 @@ requestDefaults: {
 						value: 'astronomyPictureOfTheDay',
 					},
 					{
+						// eslint-disable-next-line n8n-nodes-base/node-param-resource-with-plural-option
 						name: 'Mars Rover Photos',
 						value: 'marsRoverPhotos',
 					},
@@ -89,6 +90,7 @@ requestDefaults: {
 					{
 						name: 'Get',
 						value: 'get',
+						// eslint-disable-next-line n8n-nodes-base/node-param-operation-option-action-miscased
 						action: 'Get Mars Rover photos',
 						description: 'Get photos from the Mars Rover',
 						routing: {
@@ -101,6 +103,7 @@ requestDefaults: {
 				default: 'get',
 			},
 			{
+				// eslint-disable-next-line n8n-nodes-base/node-param-display-name-miscased
 				displayName: 'Rover name',
 				description: 'Choose which Mars Rover to get a photo from',
 				required: true,

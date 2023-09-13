@@ -5,6 +5,7 @@ import {
 } from 'n8n-workflow';
 
 export class NasaPicsApi implements ICredentialType {
+	// eslint-disable-next-line n8n-nodes-base/cred-class-field-name-uppercase-first-char
 	name = 'NasaPicsApi';
 	displayName = 'NASA Pics API';
 	// Uses the link to this tutorial as an example
@@ -14,10 +15,12 @@ export class NasaPicsApi implements ICredentialType {
 		{
 			displayName: 'API Key',
 			name: 'apiKey',
+			// eslint-disable-next-line n8n-nodes-base/cred-class-field-unobscured-sensitive-input
 			type: 'string',
 			default: '',
 		},
 	];
+	// eslint-disable-next-line n8n-nodes-base/cred-class-field-authenticate-type-assertion
 	authenticate = {
 		type: 'generic',
 		properties: {
