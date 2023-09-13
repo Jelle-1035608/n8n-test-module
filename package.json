@@ -17,12 +17,10 @@
 	},
 	"main": "index.js",
 	"scripts": {
-		// don't change
 	},
 	"files": [
 		"dist"
 	],
-	// Link the credentials and node
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"credentials": [
@@ -33,9 +31,7 @@
 		]
 	},
 	"devDependencies": {
-		// don't change
 	},
 	"dependencies": {
-		// don't change
 	}
 }
